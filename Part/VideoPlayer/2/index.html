@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>You Make It Feel Like Christmas</title>
+    <link href="index.css" rel="stylesheet" />
+    <script src="index.js"></script>
+</head>
+
+<body onload="init()">
+    <video id="videoPlayer" src="../../2/Lyric Video.mp4" preload="auto" controls></video>
+    <table id="controls">
+        <tr id="metronom">
+            <td>Metronom</td>
+            <td class="range">
+                <input type="range" min="0" max="100" step="1" value="0" oninput="updateMetronom(this.value); this.parentElement.children[1].value = this.value"/>
+                <output></output>
+                <audio src="../../2/Metronom.mp3" type="audio/mpeg" preload="auto"></audio>
+            </td>
+        </tr>
+        <tr id="femaleLead">
+            <td>Lead Vocals - female&emsp;&emsp;</td>
+            <td class="range">
+                <input type="range" min="0" max="100" step="1" value="100" oninput="updateFemale(this.value); this.parentElement.children[1].value = this.value"/>
+                <output></output>
+                <audio src="../../2/Lead Vocals - female.mp3" type="audio/mpeg" preload="auto"></audio>
+            </td>
+        </tr>
+        <tr id="vocal">
+            <td>Vocal Enhancer</td>
+            <td class="range">
+                <input type="range" min="0" max="100" step="1" value="100" oninput="updateVocal(this.value); this.parentElement.children[1].value = this.value"/>
+                <output></output>
+                <audio src="../../2/Vocal Enhancer.mp3" type="audio/mpeg" preload="auto"></audio>
+            </td>
+        </tr>
+        <tr id="backing">
+            <td>Backing Vocals</td>
+            <td class="range">
+                <input type="range" min="0" max="100" step="1" value="100" oninput="updateBacking(this.value); this.parentElement.children[1].value = this.value"/>
+                <output></output>
+                <audio src="../../2/Backing Vocals.mp3" type="audio/mpeg" preload="auto"></audio>
+            </td>
+        </tr>
+        <tr id="instrumental">
+            <td>Instrumental</td>
+            <td class="range">
+                <input type="range" min="0" max="100" step="1" value="100" oninput="updateInstrumental(this.value); this.parentElement.children[1].value = this.value"/>
+                <output></output>
+                <audio src="../../2/Instrumental.mp3" type="audio/mpeg" preload="auto"></audio>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="range">
+            </td>
+        </tr>
+        <tr>
+            <td>&emsp;</td>
+            <td class="range">
+            </td>
+        </tr>
+        <tr>
+            <td>&emsp;</td>
+            <td class="range">
+            </td>
+        </tr>
+        <tr id="geschwindigkeit">
+            <td>Geschwindigkeit</td>
+            <td class="range">
+                <input type="range" min="0" max="500" step="1" value="100" oninput="updateGeschwindigkeit(this.value); this.parentElement.children[1].value = (this.value / 100)"/>
+                <output></output>
+            </td>
+        </tr>
+    </table>
+    <div id="fullScreen" onclick="openFullscreen(this)">
+        &#x26F6;
+    </div>
+    <div id="reset" onclick="resetAudio()">
+        ↻
+    </div>
+    <div id="numbers">
+        <div onclick="goTo(1)" title="Intro">
+            ❶
+        </div>    
+        <div onclick="goTo(2)" title="You make it feel like christmas" style="color: #FF843D">
+            ❷
+        </div>    
+        <div onclick="goTo(3)" title="Sleigh ride">
+            ❸
+        </div>    
+        <div onclick="goTo(4)" title="Superperforator">
+            ❹
+        </div>
+    </div>
+</body>
+
+</html>

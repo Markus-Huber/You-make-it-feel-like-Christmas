@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Superperforator</title>
+    <link href="index.css" rel="stylesheet" />
+    <script src="index.js"></script>
+</head>
+
+<body onload="init()">
+    <video id="videoPlayer" src="../../4/Lyric Video.mp4" preload="auto" controls></video>
+    <table id="controls">
+        <tr id="lead">
+            <td>Lead Vocals</td>
+            <td class="range">
+                <input type="range" min="0" max="100" step="1" value="100" oninput="updateLead(this.value); this.parentElement.children[1].value = this.value"/>
+                <output></output>
+                <audio src="../../4/Lead Vocals.mp3" type="audio/mpeg" preload="auto"></audio>
+            </td>
+        </tr>
+        <tr id="instrumental">
+            <td>Instrumental</td>
+            <td class="range" style="width: 98%;">
+                <input type="range" min="0" max="100" step="1" value="100" oninput="updateInstrumental(this.value); this.parentElement.children[1].value = this.value"/>
+                <output></output>
+                <audio src="../../4/Instrumental.mp3" type="audio/mpeg" preload="auto"></audio>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="range">
+            </td>
+        </tr>
+        <tr>
+            <td>&emsp;</td>
+            <td class="range">
+            </td>
+        </tr>
+        <tr>
+            <td>&emsp;</td>
+            <td class="range">
+            </td>
+        </tr>
+        <tr id="geschwindigkeit">
+            <td>Geschwindigkeit</td>
+            <td class="range">
+                <input type="range" min="0" max="500" step="1" value="100" oninput="updateGeschwindigkeit(this.value); this.parentElement.children[1].value = (this.value / 100)"/>
+                <output></output>
+            </td>
+        </tr>
+    </table>
+    <div id="fullScreen" onclick="openFullscreen(this)">
+        &#x26F6;
+    </div>
+    <div id="reset" onclick="resetAudio()">
+        ↻
+    </div>
+    <div id="numbers">
+        <div onclick="goTo(1)" title="Intro">
+            ❶
+        </div>    
+        <div onclick="goTo(2)" title="You make it feel like christmas">
+            ❷
+        </div>    
+        <div onclick="goTo(3)" title="Sleigh ride">
+            ❸
+        </div>
+        <div onclick="goTo(4)" title="Superperforator" style="color: #FF843D">
+            ❹
+        </div>
+    </div>
+</body>
+
+</html>

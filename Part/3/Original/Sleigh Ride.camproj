@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<Project_Data Version="8.00">
+<Project_Settings>
+<ProfileName></ProfileName>
+<ProjectWidth>0</ProjectWidth>
+<ProjectHeight>0</ProjectHeight>
+<IsCustomProject>1</IsCustomProject>
+<SavedProjectSettings>0</SavedProjectSettings>
+<LastFlashTemplate>-1</LastFlashTemplate>
+</Project_Settings>
+
+
+<AutoSaveFile>C:\Users\Admin\AppData\Local\TechSmith\Camtasia Studio\8.0\Auto-Saves\Sleigh Ride1342ae45.autosave.camproj</AutoSaveFile>
+
+<ProjectID>1F9253E4-A44E-43CF-AEE5-437F26B69280</ProjectID>
+
+<PowerPointProject>0</PowerPointProject>
+
+<PowerPointFilename></PowerPointFilename>
+
+
+<Project_Notes>
+</Project_Notes>
+
+<Project_MetaData>
+<Project_MetaData_Object>
+<FieldArrayKey>8</FieldArrayKey>
+<Value>Sleigh Ride</Value>
+</Project_MetaData_Object>
+<Project_MetaData_Object>
+<FieldArrayKey>13</FieldArrayKey>
+<Value>2024-12-05 02:57:12 </Value>
+</Project_MetaData_Object>
+<Project_MetaData_Object>
+<FieldArrayKey>16</FieldArrayKey>
+<Value>ENU</Value>
+</Project_MetaData_Object>
+</Project_MetaData>
+
+<CSMLData>
+<GoProject id="1" version="3.0" >
+ <Project id="2" editRate="30/1" version="3.0" >
+  <Author></Author>
+  <Comment></Comment>
+  <System></System>
+  <SourceBin id="3"  >
+    <Source id="4" src="C:\Users\Admin\Desktop\You make it feel like Christmas\Part\3\Instrumental.mp3" lastMod="20241204T161033" rect="(0,0,0,0)" >
+      <SourceTrack range="(0,1674666667)" type="2" editRate="10000000/1" trackRect="(0,0,0,0)" sampleRate="44100/1" bitDepth="0" numChannels="2" filename="" metaData="" />
+    </Source>
+    <Source id="5" src="C:\Users\Admin\Desktop\You make it feel like Christmas\Part\3\Vocals.mp3" lastMod="20241204T161247" rect="(0,0,0,0)" >
+      <SourceTrack range="(0,1674666667)" type="2" editRate="10000000/1" trackRect="(0,0,0,0)" sampleRate="44100/1" bitDepth="0" numChannels="2" filename="" metaData="" />
+    </Source>
+  </SourceBin>
+  <Timeline id="6"  >
+   <Attributes>
+    <Attribute id="7" value="800" name="width"/>
+    <Attribute id="8" value="600" name="height"/>
+    <Attribute id="9" value="(0,0,0,255)" name="backgroundColor"/>
+   </Attributes>
+    <GenericMixer id="10"  name="Unified Mixer">
+     <MetaData>
+      <entry key="MixerType" val="TimelineMixer"/>
+     </MetaData>
+     <Tracks>
+      <GenericTrack id="11"  >
+       <Attributes>
+        <Attribute id="12" value="" name="ident"/>
+        <Attribute id="13" value="0" name="audioMuted"/>
+        <Attribute id="14" value="0" name="videoHidden"/>
+       </Attributes>
+       <MetaData>
+        <entry key="IsLocked" val="False"/>
+        <entry key="WinTrackHeight" val="62"/>
+       </MetaData>
+       <Medias>
+        <AMFile id="15" start="0" duration="4685" scalar="1/1" mediaStart="0/1" mediaDuration="4685/1" trackNumber="0" src="4" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="16" interp="linr"  name="volume">
+           <Keyframes>
+           <Keyframe id="17"  time="0/1" value="1" leadInLength="0/1"  />
+           <Keyframe id="18"  time="4651/1" value="1" leadInLength="0/1"  />
+           <Keyframe id="19"  time="4685/1" value="0" leadInLength="0/1"  />
+           <Keyframe id="20"  time="4686/1" value="1" leadInLength="0/1"  />
+           </Keyframes>
+          </InterpolatingParam>
+          <Parameter id="21"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="22" value="" name="ident"/>
+          <Attribute id="23" value="44100" name="sampleRate"/>
+          <Attribute id="24" value="0" name="bitDepth"/>
+          <Attribute id="25" value="1" name="gain"/>
+          <Attribute id="26" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+       </Medias>
+      </GenericTrack>
+      <GenericTrack id="27"  >
+       <Attributes>
+        <Attribute id="28" value="" name="ident"/>
+        <Attribute id="29" value="1" name="audioMuted"/>
+        <Attribute id="30" value="1" name="videoHidden"/>
+       </Attributes>
+       <MetaData>
+        <entry key="IsLocked" val="False"/>
+        <entry key="WinTrackHeight" val="62"/>
+       </MetaData>
+       <Medias>
+        <AMFile id="31" start="0" duration="780" scalar="1/1" mediaStart="0/1" mediaDuration="780/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="32" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="33"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="34" value="" name="ident"/>
+          <Attribute id="35" value="44100" name="sampleRate"/>
+          <Attribute id="36" value="0" name="bitDepth"/>
+          <Attribute id="37" value="1" name="gain"/>
+          <Attribute id="38" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="39" start="829" duration="32" scalar="1/1" mediaStart="829/1" mediaDuration="32/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="40" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="41"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="42" value="" name="ident"/>
+          <Attribute id="43" value="44100" name="sampleRate"/>
+          <Attribute id="44" value="0" name="bitDepth"/>
+          <Attribute id="45" value="1" name="gain"/>
+          <Attribute id="46" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="47" start="920" duration="113" scalar="1/1" mediaStart="920/1" mediaDuration="113/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="48" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="49"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="50" value="" name="ident"/>
+          <Attribute id="51" value="44100" name="sampleRate"/>
+          <Attribute id="52" value="0" name="bitDepth"/>
+          <Attribute id="53" value="1" name="gain"/>
+          <Attribute id="54" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="55" start="1078" duration="92" scalar="1/1" mediaStart="1078/1" mediaDuration="92/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="56" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="57"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="58" value="" name="ident"/>
+          <Attribute id="59" value="44100" name="sampleRate"/>
+          <Attribute id="60" value="0" name="bitDepth"/>
+          <Attribute id="61" value="1" name="gain"/>
+          <Attribute id="62" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="63" start="1268" duration="837" scalar="1/1" mediaStart="1268/1" mediaDuration="837/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="64" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="65"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="66" value="" name="ident"/>
+          <Attribute id="67" value="44100" name="sampleRate"/>
+          <Attribute id="68" value="0" name="bitDepth"/>
+          <Attribute id="69" value="1" name="gain"/>
+          <Attribute id="70" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="71" start="2361" duration="252" scalar="1/1" mediaStart="2361/1" mediaDuration="252/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="72" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="73"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="74" value="" name="ident"/>
+          <Attribute id="75" value="44100" name="sampleRate"/>
+          <Attribute id="76" value="0" name="bitDepth"/>
+          <Attribute id="77" value="1" name="gain"/>
+          <Attribute id="78" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="79" start="2756" duration="98" scalar="1/1" mediaStart="2756/1" mediaDuration="98/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="80" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="81"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="82" value="" name="ident"/>
+          <Attribute id="83" value="44100" name="sampleRate"/>
+          <Attribute id="84" value="0" name="bitDepth"/>
+          <Attribute id="85" value="1" name="gain"/>
+          <Attribute id="86" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="87" start="3430" duration="33" scalar="1/1" mediaStart="3430/1" mediaDuration="33/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="88" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="89"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="90" value="" name="ident"/>
+          <Attribute id="91" value="44100" name="sampleRate"/>
+          <Attribute id="92" value="0" name="bitDepth"/>
+          <Attribute id="93" value="1" name="gain"/>
+          <Attribute id="94" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="95" start="3527" duration="106" scalar="1/1" mediaStart="3527/1" mediaDuration="106/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="96" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="97"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="98" value="" name="ident"/>
+          <Attribute id="99" value="44100" name="sampleRate"/>
+          <Attribute id="100" value="0" name="bitDepth"/>
+          <Attribute id="101" value="1" name="gain"/>
+          <Attribute id="102" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="103" start="3687" duration="96" scalar="1/1" mediaStart="3687/1" mediaDuration="96/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="104" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="105"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="106" value="" name="ident"/>
+          <Attribute id="107" value="44100" name="sampleRate"/>
+          <Attribute id="108" value="0" name="bitDepth"/>
+          <Attribute id="109" value="1" name="gain"/>
+          <Attribute id="110" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="111" start="3878" duration="378" scalar="1/1" mediaStart="3878/1" mediaDuration="378/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="112" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="113"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="114" value="" name="ident"/>
+          <Attribute id="115" value="44100" name="sampleRate"/>
+          <Attribute id="116" value="0" name="bitDepth"/>
+          <Attribute id="117" value="1" name="gain"/>
+          <Attribute id="118" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+       </Medias>
+      </GenericTrack>
+      <GenericTrack id="119"  >
+       <Attributes>
+        <Attribute id="120" value="Choir/ Background" name="ident"/>
+        <Attribute id="121" value="1" name="audioMuted"/>
+        <Attribute id="122" value="1" name="videoHidden"/>
+       </Attributes>
+       <MetaData>
+        <entry key="IsLocked" val="False"/>
+        <entry key="WinTrackHeight" val="62"/>
+       </MetaData>
+       <Medias>
+        <AMFile id="123" start="780" duration="34" scalar="1/1" mediaStart="780/1" mediaDuration="34/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="124" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="125"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="126" value="" name="ident"/>
+          <Attribute id="127" value="44100" name="sampleRate"/>
+          <Attribute id="128" value="0" name="bitDepth"/>
+          <Attribute id="129" value="1" name="gain"/>
+          <Attribute id="130" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="131" start="814" duration="15" scalar="1/1" mediaStart="814/1" mediaDuration="15/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="132" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="133"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="134" value="" name="ident"/>
+          <Attribute id="135" value="44100" name="sampleRate"/>
+          <Attribute id="136" value="0" name="bitDepth"/>
+          <Attribute id="137" value="1" name="gain"/>
+          <Attribute id="138" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="139" start="861" duration="59" scalar="1/1" mediaStart="861/1" mediaDuration="59/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="140" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="141"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="142" value="" name="ident"/>
+          <Attribute id="143" value="44100" name="sampleRate"/>
+          <Attribute id="144" value="0" name="bitDepth"/>
+          <Attribute id="145" value="1" name="gain"/>
+          <Attribute id="146" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="147" start="1033" duration="45" scalar="1/1" mediaStart="1033/1" mediaDuration="45/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="148" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="149"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="150" value="" name="ident"/>
+          <Attribute id="151" value="44100" name="sampleRate"/>
+          <Attribute id="152" value="0" name="bitDepth"/>
+          <Attribute id="153" value="1" name="gain"/>
+          <Attribute id="154" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="155" start="1170" duration="98" scalar="1/1" mediaStart="1170/1" mediaDuration="98/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="156" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="157"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="158" value="" name="ident"/>
+          <Attribute id="159" value="44100" name="sampleRate"/>
+          <Attribute id="160" value="0" name="bitDepth"/>
+          <Attribute id="161" value="1" name="gain"/>
+          <Attribute id="162" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="163" start="2105" duration="127" scalar="1/1" mediaStart="2105/1" mediaDuration="127/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="164" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="165"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="166" value="" name="ident"/>
+          <Attribute id="167" value="44100" name="sampleRate"/>
+          <Attribute id="168" value="0" name="bitDepth"/>
+          <Attribute id="169" value="1" name="gain"/>
+          <Attribute id="170" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="171" start="2232" duration="129" scalar="1/1" mediaStart="2232/1" mediaDuration="129/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="172" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="173"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="174" value="" name="ident"/>
+          <Attribute id="175" value="44100" name="sampleRate"/>
+          <Attribute id="176" value="0" name="bitDepth"/>
+          <Attribute id="177" value="1" name="gain"/>
+          <Attribute id="178" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="179" start="2613" duration="143" scalar="1/1" mediaStart="2613/1" mediaDuration="143/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="180" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="181"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="182" value="" name="ident"/>
+          <Attribute id="183" value="44100" name="sampleRate"/>
+          <Attribute id="184" value="0" name="bitDepth"/>
+          <Attribute id="185" value="1" name="gain"/>
+          <Attribute id="186" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="187" start="2854" duration="530" scalar="1/1" mediaStart="2854/1" mediaDuration="530/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="188" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="189"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="190" value="" name="ident"/>
+          <Attribute id="191" value="44100" name="sampleRate"/>
+          <Attribute id="192" value="0" name="bitDepth"/>
+          <Attribute id="193" value="1" name="gain"/>
+          <Attribute id="194" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="195" start="3384" duration="46" scalar="1/1" mediaStart="3384/1" mediaDuration="46/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="196" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="197"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="198" value="" name="ident"/>
+          <Attribute id="199" value="44100" name="sampleRate"/>
+          <Attribute id="200" value="0" name="bitDepth"/>
+          <Attribute id="201" value="1" name="gain"/>
+          <Attribute id="202" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="203" start="3463" duration="64" scalar="1/1" mediaStart="3463/1" mediaDuration="64/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="204" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="205"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="206" value="" name="ident"/>
+          <Attribute id="207" value="44100" name="sampleRate"/>
+          <Attribute id="208" value="0" name="bitDepth"/>
+          <Attribute id="209" value="1" name="gain"/>
+          <Attribute id="210" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="211" start="3633" duration="54" scalar="1/1" mediaStart="3633/1" mediaDuration="54/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="212" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="213"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="214" value="" name="ident"/>
+          <Attribute id="215" value="44100" name="sampleRate"/>
+          <Attribute id="216" value="0" name="bitDepth"/>
+          <Attribute id="217" value="1" name="gain"/>
+          <Attribute id="218" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="219" start="3783" duration="91" scalar="1/1" mediaStart="3783/1" mediaDuration="91/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="220" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="221"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="222" value="" name="ident"/>
+          <Attribute id="223" value="44100" name="sampleRate"/>
+          <Attribute id="224" value="0" name="bitDepth"/>
+          <Attribute id="225" value="1" name="gain"/>
+          <Attribute id="226" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="227" start="3874" duration="4" scalar="1/1" mediaStart="3874/1" mediaDuration="4/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="228" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="229"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="230" value="" name="ident"/>
+          <Attribute id="231" value="44100" name="sampleRate"/>
+          <Attribute id="232" value="0" name="bitDepth"/>
+          <Attribute id="233" value="1" name="gain"/>
+          <Attribute id="234" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+        <AMFile id="235" start="4256" duration="429" scalar="1/1" mediaStart="4256/1" mediaDuration="429/1" trackNumber="0" src="5" channelNumber="0,1" >
+         <Parameters>
+          <InterpolatingParam id="236" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+          <Parameter id="237"  name="captions"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="238" value="" name="ident"/>
+          <Attribute id="239" value="44100" name="sampleRate"/>
+          <Attribute id="240" value="0" name="bitDepth"/>
+          <Attribute id="241" value="1" name="gain"/>
+          <Attribute id="242" value="0" name="mixToMono"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+        </AMFile>
+       </Medias>
+      </GenericTrack>
+      <GenericTrack id="243"  >
+       <Attributes>
+        <Attribute id="244" value="" name="ident"/>
+        <Attribute id="245" value="0" name="audioMuted"/>
+        <Attribute id="246" value="0" name="videoHidden"/>
+       </Attributes>
+       <MetaData>
+        <entry key="IsLocked" val="False"/>
+        <entry key="WinTrackHeight" val="62"/>
+       </MetaData>
+       <Medias>
+       </Medias>
+      </GenericTrack>
+     </Tracks>
+    </GenericMixer>
+   <CaptionAttributes id="247"  >
+    <Attribute id="248" value="1" name="captionsEnabled"/>
+    <Attribute id="249" value="Arial" name="captionsFontName"/>
+    <Attribute id="250" value="12" name="captionsFontSize"/>
+    <Attribute id="251" value="(0,0,0,255)" name="captionsBackgroundColor"/>
+    <Attribute id="252" value="(255,255,255,255)" name="captionsForegroundColor"/>
+    <Attribute id="253" value="en" name="lang"/>
+    <Attribute id="254" value="0" name="captionsAlignment"/>
+    <Attribute id="255" value="1" name="captionsDefaultFontSize"/>
+    <Attribute id="256" value="0.5" name="captionsOpacity"/>
+    <Attribute id="257" value="1" name="captionsBackgroundEnabled"/>
+    <Attribute id="258" value="1" name="captionsBackgroundOnlyAroundText"/>
+   </CaptionAttributes>
+   <Parameters>
+    <VectorParam id="259"  name="eyePosition">
+     <InterpolatingParam id="260" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="261" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="262" interp="linr"  time="0/1" value="3000" leadInLength="0/1"  />
+    </VectorParam>
+    <VectorParam id="263"  name="eyeLookAtPosition">
+     <InterpolatingParam id="264" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="265" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="266" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+    </VectorParam>
+    <VectorParam id="267"  name="eyeUpVector">
+     <InterpolatingParam id="268" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="269" interp="linr"  time="0/1" value="1" leadInLength="0/1"  />
+     <InterpolatingParam id="270" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+    </VectorParam>
+    <InterpolatingParam id="271" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="fov"/>
+    <InterpolatingParam id="272" interp="linr"  time="0/1" value="1.5" leadInLength="0/1"  name="nearClipDistance"/>
+    <InterpolatingParam id="273" interp="linr"  time="0/1" value="6000" leadInLength="0/1"  name="farClipDistance"/>
+   </Parameters>
+  </Timeline>
+ </Project>
+</GoProject>
+</CSMLData>
+
+</Project_Data>
